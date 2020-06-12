@@ -64,7 +64,18 @@ struct MyHTMLFactory<Site: Website>: HTMLFactory {
                 ),// HEADER
                 
                 .wrapper(
-                    
+                    .ul(
+                        .forEach(
+                        context.allItems(sortedBy: \.date, order: .descending)
+                        ) { item in
+                            .li(
+                                .article(
+                                    .h1(.text(item.title)),
+                                    .p(.text(item.description))
+                                )
+                            )
+                        }
+                    )
                 )
             )
         )
