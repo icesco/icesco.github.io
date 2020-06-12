@@ -14,8 +14,8 @@ struct IcescoGithubIo: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://your-website-url.com")!
-    var name = "IcescoGithubIo"
+    var url = URL(string: "https://icesco.github.io")!
+    var name = "iCesco's Blog"
     var description = "A description of IcescoGithubIo"
     var language: Language { .english }
     var imagePath: Path? { nil }
