@@ -3,7 +3,7 @@ layout: page
 title: ReSurfer for Reddit
 date: 2020-06-13
 permalink: resurfer
-width: 200
+width: 150
 ---
 
  <img src="{{ site.baseurl }}/img/0x0ss-P3-5.jpg" alt="First Screen" width="{{page.width}}}" class="center"><img src="{{ site.baseurl }}/img/0x0ss-P3-4.jpg" alt="Second Screen" width="{{page.width}}}" class="center"><img src="{{ site.baseurl }}/img/0x0ss-P3.jpg" alt="Third Screen" width="{{page.width}}}" class="center">
