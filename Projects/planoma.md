@@ -9,7 +9,7 @@ custom_css: planoma
 
 <div class="planoma-hero">
   <div class="planoma-logo">
-    <img src="{{ site.baseurl }}/img/planoma-logo.png" alt="Planoma App Icon" width="{{page.width}}" class="center">
+    <img src="{{ site.baseurl }}/img/planoma-icon.jpg" alt="Planoma App Icon" width="{{page.width}}" class="center">
   </div>
   <div class="planoma-tagline">Transform Your Daily Routine</div>
 </div>
