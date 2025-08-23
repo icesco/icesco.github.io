@@ -1,5 +1,9 @@
 ---
+layout: page
+title: Claude Code Documentation
 exclude_from_nav: true
+published: false
+sitemap: false
 ---
 
 # CLAUDE.md
