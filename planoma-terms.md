@@ -143,7 +143,7 @@ Apple is a third-party beneficiary of these Terms and may enforce them against y
 ## Support and Contact
 
 ### Customer Support
-- Support is provided via email: [support@planoma-app.com](mailto:support@planoma-app.com)
+- Support is provided via email: [f@fbianco.cc](mailto:f@fbianco.cc)
 - We aim to respond within 24 hours
 - Premium users receive priority support
 
@@ -168,7 +168,7 @@ These Terms, together with our Privacy Policy, constitute the entire agreement b
 *By downloading, installing, or using Planoma, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.*
 
 **Contact Information:**
-- Email: [support@planoma-app.com](mailto:support@planoma-app.com)
+- Email: [f@fbianco.cc](mailto:f@fbianco.cc)
 - Website: [https://icesco.github.io/planoma/](https://icesco.github.io/planoma/)
 
 *These terms are effective as of August 23, 2024.*

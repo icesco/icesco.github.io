@@ -92,7 +92,7 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 If you have any questions about this Privacy Policy, please contact us:
 
-- **Email**: [support@planoma-app.com](mailto:support@planoma-app.com)
+- **Email**: [f@fbianco.cc](mailto:f@fbianco.cc)
 - **Website**: [https://icesco.github.io/planoma/](https://icesco.github.io/planoma/)
 
 ## Your California Privacy Rights

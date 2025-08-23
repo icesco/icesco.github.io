@@ -104,7 +104,7 @@ Refund requests are handled by Apple. To request a refund:
 3. Make sure you have the latest version
 
 ### Get In Touch
-- **Email**: [support@planoma-app.com](mailto:support@planoma-app.com)
+- **Email**: [f@fbianco.cc](mailto:f@fbianco.cc)
 - **Response Time**: Usually within 24 hours
 - **Include**: 
   - Your device model and iOS version
@@ -112,7 +112,7 @@ Refund requests are handled by Apple. To request a refund:
   - Screenshots if helpful
 
 ### Feature Requests
-We love hearing your ideas! Send feature requests to [support@planoma-app.com](mailto:support@planoma-app.com) with "Feature Request" in the subject line.
+We love hearing your ideas! Send feature requests to [f@fbianco.cc](mailto:f@fbianco.cc) with "Feature Request" in the subject line.
 
 ## 📚 Resources
 
@@ -128,6 +128,6 @@ We love hearing your ideas! Send feature requests to [support@planoma-app.com](m
 
 ---
 
-**Need more help?** Don't hesitate to reach out at [support@planoma-app.com](mailto:support@planoma-app.com) - we're here to help you succeed with your habits!
+**Need more help?** Don't hesitate to reach out at [f@fbianco.cc](mailto:f@fbianco.cc) - we're here to help you succeed with your habits!
 
 *Last updated: August 2024*
