@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Projects
+title: Projects
 date: 2020-06-13
 ---
 
