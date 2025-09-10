@@ -7,7 +7,7 @@ exclude_from_nav: true
 
 # Privacy Policy for Planoma
 
-*Last updated: August 23, 2024*
+*Last updated: December 10, 2024*
 
 ## Introduction
 
@@ -20,6 +20,7 @@ This page informs you of our policies regarding the collection, use, and disclos
 ### Data You Provide
 - **Habit Information**: Names, descriptions, and completion records for your habits
 - **App Settings**: Your preferences for themes, notifications, and app behavior
+- **Purchase Information**: If you purchase Planoma Pro, Apple handles the transaction. We only receive a transaction identifier to unlock premium features
 - **Usage Data**: Anonymous analytics about how you interact with the app
 
 ### Data We Don't Collect
@@ -59,15 +60,33 @@ This page informs you of our policies regarding the collection, use, and disclos
 ### Analytics Opt-Out
 - You can disable analytics in iOS Settings > Privacy & Security > Analytics & Improvements
 
+## In-App Purchases and Subscriptions
+
+### Planoma Pro Subscription
+Planoma Pro is available as an auto-renewable subscription with the following terms:
+
+- **Payment**: Will be charged to your iTunes Account at confirmation of purchase
+- **Auto-Renewal**: Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period
+- **Renewal Charge**: Your account will be charged for renewal within 24 hours prior to the end of the current period
+- **Manage Subscription**: You can manage your subscription and turn off auto-renewal in your Account Settings after purchase
+- **Free Trial**: Any unused portion of a free trial period, if offered, will be forfeited when you purchase a subscription
+- **Cancellation**: You can cancel anytime through your iTunes Account Settings. Cancellation takes effect at the end of the current billing period
+
+### Available Plans
+- Monthly subscription
+- Annual subscription (with discount)
+- Lifetime purchase (one-time payment)
+
 ## Third-Party Services
 
 ### Apple Services
 - **iCloud**: For optional data synchronization (your private account)
 - **App Store**: For app distribution and subscription management
+- **StoreKit**: For processing in-app purchases
 
 ### RevenueCat
 - We use RevenueCat for subscription management
-- RevenueCat may collect anonymous purchase data
+- RevenueCat processes anonymous purchase data
 - View RevenueCat's privacy policy: [revenuecat.com/privacy](https://www.revenuecat.com/privacy)
 
 ## Children's Privacy
@@ -111,6 +130,11 @@ If you are in the European Economic Area (EEA), you have rights under GDPR inclu
 - Data portability
 - Objection to processing
 
+## Terms of Use
+
+By using Planoma, you agree to Apple's Standard End User License Agreement (EULA):
+[https://www.apple.com/legal/internet-services/itunes/dev/stdeula/](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+
 ---
 
-*This privacy policy is effective as of August 23, 2024. By using Planoma, you agree to the collection and use of information in accordance with this policy.*
+*This privacy policy is effective as of December 10, 2024. By using Planoma, you agree to the collection and use of information in accordance with this policy.*
