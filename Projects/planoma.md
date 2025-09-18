@@ -119,9 +119,9 @@ custom_css: planoma
 </div>
 
 <div class="planoma-launch">
-  <h3 class="planoma-section-title">🚀 Coming Soon</h3>
+  <h3 class="planoma-section-title">🚀 Download Now</h3>
   <div class="launch-info">
-    <p>Planoma is currently in final development and will be launching on the App Store soon.</p>
+    <p>Planoma is now available on the App Store!</p>
     <div class="launch-specs">
       <div class="spec-item">📱 iOS 18.0+ compatibility</div>
       <div class="spec-item">💻 iPhone and iPad support</div>
@@ -130,7 +130,9 @@ custom_css: planoma
     </div>
     <div class="planoma-cta">
       <p class="cta-text">Transform your routine, one habit at a time with Planoma.</p>
-      <div class="status-badge">Coming Soon to the App Store</div>
+      <a href="https://apps.apple.com/it/app/planoma/id6748082202" target="_blank" class="app-store-button">
+        <div class="status-badge">Download on the App Store</div>
+      </a>
     </div>
   </div>
 </div>
