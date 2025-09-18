@@ -1,0 +1,163 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// Get featured projects
+const projects = await getCollection('projects');
+const featuredProjects = projects
+  .filter(project => project.data.featured)
+  .sort((a, b) => (a.data.order || 999) - (b.data.order || 999))
+  .slice(0, 3);
+
+// Get recent blog posts
+const blogPosts = await getCollection('blog', ({ data }) => {
+  return !data.draft;
+});
+const recentPosts = blogPosts
+  .sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf())
+  .slice(0, 3);
+---
+
+<BaseLayout title="iOS Developer & Swift Enthusiast">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <div class="text-center">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">
+          Hi, I'm Francesco
+        </h1>
+        <p class="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
+          iOS Developer passionate about Swift, SwiftUI, and creating beautiful mobile experiences
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/projects" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+            View My Projects
+          </a>
+          <a href="/about" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+            About Me
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects -->
+  {featuredProjects.length > 0 && (
+    <section class="py-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            Featured Projects
+          </h2>
+          <p class="text-xl text-gray-600 dark:text-gray-400">
+            Some of my favorite iOS apps I've built
+          </p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {featuredProjects.map(project => (
+            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden group">
+              <a href={`/projects/${project.slug}`}>
+                <img 
+                  src={project.data.image} 
+                  alt={project.data.title}
+                  class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </a>
+              <div class="p-6">
+                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                  <a href={`/projects/${project.slug}`} class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                    {project.data.title}
+                  </a>
+                </h3>
+                <p class="text-gray-600 dark:text-gray-400 mb-4">
+                  {project.data.description}
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  {project.data.technologies.slice(0, 3).map(tech => (
+                    <span class="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded text-sm">
+                      {tech}
+                    </span>
+                  ))}
+                  {project.data.technologies.length > 3 && (
+                    <span class="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 rounded text-sm">
+                      +{project.data.technologies.length - 3}
+                    </span>
+                  )}
+                </div>
+                <a 
+                  href={`/projects/${project.slug}`}
+                  class="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline font-medium"
+                >
+                  View Details →
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+        
+        <div class="text-center mt-12">
+          <a 
+            href="/projects" 
+            class="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline text-lg"
+          >
+            View All Projects →
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Recent Blog Posts -->
+  {recentPosts.length > 0 && (
+    <section class="py-20 bg-gray-100 dark:bg-gray-800">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            Latest Articles
+          </h2>
+          <p class="text-xl text-gray-600 dark:text-gray-400">
+            Thoughts on iOS development and Swift
+          </p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {recentPosts.map(post => (
+            <article class="bg-white dark:bg-gray-700 rounded-xl shadow-sm hover:shadow-lg transition-shadow p-6">
+              <time class="text-sm text-gray-500 dark:text-gray-400">
+                {post.data.date.toLocaleDateString('en-US', { 
+                  year: 'numeric', 
+                  month: 'long', 
+                  day: 'numeric' 
+                })}
+              </time>
+              <h3 class="text-xl font-semibold text-gray-900 dark:text-white mt-2 mb-3">
+                <a href={`/blog/${post.slug}`} class="hover:text-blue-600 dark:hover:text-blue-400">
+                  {post.data.title}
+                </a>
+              </h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-4">
+                {post.data.description}
+              </p>
+              <a 
+                href={`/blog/${post.slug}`}
+                class="text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                Read More →
+              </a>
+            </article>
+          ))}
+        </div>
+        
+        <div class="text-center mt-12">
+          <a 
+            href="/blog" 
+            class="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline text-lg"
+          >
+            View All Articles →
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

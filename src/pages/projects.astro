@@ -1,0 +1,66 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const projects = await getCollection('projects');
+const sortedProjects = projects.sort((a, b) => (a.data.order || 999) - (b.data.order || 999));
+---
+
+<BaseLayout title="Projects" description="iOS apps and projects by Francesco Bianco">
+  <div class="bg-gray-50 dark:bg-gray-900 py-24">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+          My Projects
+        </h1>
+        <p class="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+          A collection of iOS apps and projects I've built with Swift, SwiftUI, and modern iOS technologies
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {sortedProjects.map(project => (
+          <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group">
+            <div class="aspect-video bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 flex items-center justify-center p-6">
+              <img 
+                src={project.data.image} 
+                alt={project.data.title}
+                class="w-20 h-20 rounded-2xl shadow-md group-hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            
+            <div class="p-6">
+              <h2 class="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                {project.data.title}
+              </h2>
+              
+              <p class="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
+                {project.data.description}
+              </p>
+              
+              <div class="flex flex-wrap gap-2 mb-6">
+                {project.data.technologies.slice(0, 3).map(tech => (
+                  <span class="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded text-sm">
+                    {tech}
+                  </span>
+                ))}
+                {project.data.technologies.length > 3 && (
+                  <span class="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 rounded text-sm">
+                    +{project.data.technologies.length - 3}
+                  </span>
+                )}
+              </div>
+              
+              <a 
+                href={`/projects/${project.slug}`}
+                class="inline-flex items-center w-full justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium group-hover:bg-blue-700"
+              >
+                View Details →
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</BaseLayout>
