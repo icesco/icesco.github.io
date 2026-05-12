@@ -1,0 +1,336 @@
+/* Glico Page Styling - Calm Blue / Coral Theme */
+
+:root {
+  --glico-accent: #3b82f6;
+  --glico-accent-dark: #1d4ed8;
+  --glico-coral: #f87171;
+  --glico-honey: #f59e0b;
+  --glico-sage: #34d399;
+  --glico-bg: #f0f4ff;
+  --glico-bg-dark: #0b0f1a;
+  --glico-grouped-bg: #dbeafe;
+  --glico-grouped-bg-dark: #0f1b2e;
+  --glico-text: #1e2a3a;
+  --glico-text-dark: #e8edf8;
+  --glico-secondary-text: #4a6080;
+  --glico-secondary-text-dark: #8aa3c0;
+}
+
+/* Hero */
+.glico-hero {
+  text-align: center;
+  padding: 2rem 0;
+  background: linear-gradient(135deg, var(--glico-bg), var(--glico-grouped-bg));
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.1);
+}
+
+.glico-logo img {
+  border-radius: 22px;
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.25);
+  margin-bottom: 1rem;
+}
+
+.glico-tagline {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--glico-accent);
+  margin-top: 1rem;
+}
+
+/* Description */
+.glico-description {
+  background: var(--glico-grouped-bg);
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--glico-accent);
+}
+
+.glico-intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--glico-text);
+  margin: 0;
+}
+
+/* Section Titles */
+.glico-section-title {
+  color: var(--glico-accent);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Features Grid */
+.glico-features {
+  margin-bottom: 2rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.feature-card {
+  background: var(--glico-grouped-bg);
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--glico-accent);
+  box-shadow: 0 5px 20px rgba(59, 130, 246, 0.15);
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-title {
+  font-weight: 600;
+  color: var(--glico-text);
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.feature-desc {
+  color: var(--glico-secondary-text);
+  font-size: 0.9rem;
+}
+
+/* Stats Section */
+.glico-stats {
+  background: var(--glico-bg);
+  padding: 2rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.stat-card {
+  background: white;
+  padding: 1.2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(59, 130, 246, 0.1);
+}
+
+.stat-icon {
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--glico-secondary-text);
+  font-weight: 500;
+}
+
+.stat-value {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--glico-accent);
+}
+
+/* Integrations */
+.glico-integrations {
+  margin-bottom: 2rem;
+}
+
+.integration-list {
+  list-style: none;
+  padding: 0;
+}
+
+.integration-list li {
+  padding: 0.6rem 0;
+  color: var(--glico-secondary-text);
+  position: relative;
+  padding-left: 1.8rem;
+  font-size: 1rem;
+}
+
+.integration-list li:before {
+  content: "🔗";
+  position: absolute;
+  left: 0;
+}
+
+.integration-list .highlight {
+  color: var(--glico-accent);
+  font-weight: 600;
+}
+
+/* Disclaimer */
+.glico-disclaimer {
+  background: linear-gradient(135deg, #fff7ed, #fef3c7);
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--glico-honey);
+}
+
+.disclaimer-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #78350f;
+  margin: 0;
+}
+
+/* Tech Stack */
+.glico-tech {
+  background: var(--glico-grouped-bg);
+  padding: 2rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.tech-stack {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.tech-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: var(--glico-bg);
+  border-radius: 10px;
+  border-left: 4px solid var(--glico-accent);
+}
+
+.tech-name {
+  font-weight: 600;
+  color: var(--glico-accent);
+  font-size: 1.05rem;
+}
+
+.tech-desc {
+  color: var(--glico-secondary-text);
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* Launch / CTA */
+.glico-launch {
+  background: linear-gradient(135deg, var(--glico-bg), var(--glico-grouped-bg));
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.launch-info p {
+  color: var(--glico-text);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.launch-specs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.spec-item {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  color: var(--glico-text);
+  font-weight: 500;
+  box-shadow: 0 2px 10px rgba(59, 130, 246, 0.1);
+}
+
+.glico-cta {
+  margin-top: 2rem;
+}
+
+.cta-text {
+  font-size: 1.2rem;
+  color: var(--glico-text);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.coming-soon-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--glico-accent), var(--glico-accent-dark));
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.35);
+  animation: pulse 2s infinite;
+}
+
+.app-store-button {
+  text-decoration: none;
+}
+
+.app-store-button .coming-soon-badge {
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --glico-accent: #60a5fa;
+    --glico-bg: #0b0f1a;
+    --glico-grouped-bg: #0f1b2e;
+    --glico-text: #e8edf8;
+    --glico-secondary-text: #8aa3c0;
+  }
+
+  .feature-card, .stat-card, .tech-item, .spec-item {
+    background: var(--glico-grouped-bg);
+    color: var(--glico-text);
+  }
+
+  .glico-hero, .glico-launch {
+    background: linear-gradient(135deg, var(--glico-bg), var(--glico-grouped-bg));
+  }
+
+  .glico-disclaimer {
+    background: linear-gradient(135deg, #1c1308, #271d05);
+    border-left-color: var(--glico-honey);
+  }
+
+  .disclaimer-text {
+    color: #fde68a;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .glico-hero { padding: 1.5rem 1rem; }
+  .glico-tagline { font-size: 1.4rem; }
+  .feature-grid { grid-template-columns: 1fr; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .tech-item { flex-direction: column; text-align: center; gap: 0.5rem; }
+  .launch-specs { grid-template-columns: 1fr; }
+}
