@@ -110,6 +110,13 @@ custom_css: glico
   <p class="disclaimer-text">⚠️ <strong>Medical disclaimer</strong> — Glico is a data logging tool only. It does not provide medical advice, diagnose conditions, or replace your doctor or healthcare professional. Always consult a qualified specialist for health decisions.</p>
 </div>
 
+<div class="glico-legal">
+  <p style="text-align:center; color: var(--glico-secondary-text); font-size: 0.85rem;">
+    <a href="{{ site.baseurl }}/glico/privacy/">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="{{ site.baseurl }}/glico/terms/">Terms of Service</a>
+  </p>
+</div>
+
 <div class="glico-tech">
   <h3 class="glico-section-title">Built with Modern Technology</h3>
   <div class="tech-stack">
