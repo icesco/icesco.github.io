@@ -45,3 +45,5 @@ Puoi disattivare le statistiche e revocare il consenso AI in **Impostazioni → 
 [Termini di utilizzo Apple (EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
 
 *Ultimo aggiornamento: 6 settembre 2026*
+
+[Crediti immagini e licenze](/monstera/credits/)

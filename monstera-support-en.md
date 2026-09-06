@@ -45,3 +45,5 @@ Disable analytics or revoke AI sharing consent in **Settings → Data and privac
 [Apple Terms of Use (EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
 
 *Last updated: September 6, 2026*
+
+[Image credits and licenses](/monstera/en/credits/)
