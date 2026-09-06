@@ -16,7 +16,7 @@
 
 ## Korrekturen
 
-- Timer-Schaltflächen in Widgets starten jetzt den richtigen Timer, und Siri erkennt gesprochene Gewohnheitsnamen zuverlässiger, auch wenn die App geschlossen ist.
-- Änderungen an Gewohnheiten und Erinnerungen bleiben bei Synchronisierung, Import und Speicherwechsel zuverlässiger erhalten.
+- Timer-Schaltflächen in Widgets starten jetzt den richtigen Timer, Siri erkennt gesprochene Gewohnheitsnamen zuverlässiger, auch wenn die App geschlossen ist, und kompakte Timer in der Dynamic Island werden korrekt dargestellt.
+- Änderungen an Gewohnheiten und Erinnerungen bleiben bei Synchronisierung, Import und Speicherwechsel zuverlässiger erhalten. Auf Geräten ohne Apple Intelligence öffnet sich die Gewohnheitserstellung jetzt direkt im manuellen Modus.
 
 Danke, dass du Planoma verwendest!

@@ -16,7 +16,7 @@
 
 ## Correcciones
 
-- Los botones de temporizador de los widgets ahora inician el temporizador correcto, y Siri reconoce mejor los nombres hablados de los hábitos incluso con la app cerrada.
-- Los cambios en hábitos y recordatorios se conservan de forma más fiable durante sincronizaciones, importaciones y cambios de almacenamiento.
+- Los botones de temporizador de los widgets ahora inician el temporizador correcto, Siri reconoce mejor los nombres hablados de los hábitos incluso con la app cerrada y los temporizadores compactos de la Dynamic Island se muestran correctamente.
+- Los cambios en hábitos y recordatorios se conservan de forma más fiable durante sincronizaciones, importaciones y cambios de almacenamiento. En dispositivos sin Apple Intelligence, la creación de hábitos ahora se abre directamente en modo manual.
 
 ¡Gracias por usar Planoma!

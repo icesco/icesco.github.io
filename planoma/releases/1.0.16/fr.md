@@ -16,7 +16,7 @@
 
 ## Corrections
 
-- Les boutons de minuteur des widgets lancent désormais le bon minuteur, et Siri reconnaît plus fiablement le nom prononcé des habitudes, même lorsque l'app est fermée.
-- Les modifications des habitudes et des rappels sont mieux préservées pendant les synchronisations, importations et changements de stockage.
+- Les boutons de minuteur des widgets lancent désormais le bon minuteur, Siri reconnaît plus fiablement le nom prononcé des habitudes même lorsque l'app est fermée, et les minuteurs compacts de la Dynamic Island s'affichent correctement.
+- Les modifications des habitudes et des rappels sont mieux préservées pendant les synchronisations, importations et changements de stockage. Sur les appareils sans Apple Intelligence, la création d'une habitude s'ouvre maintenant directement en mode manuel.
 
 Merci d'utiliser Planoma !

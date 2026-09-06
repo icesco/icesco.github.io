@@ -16,7 +16,7 @@
 
 ## Oplossingen
 
-- Timerknoppen in widgets starten nu de juiste timer en Siri herkent uitgesproken namen van gewoonten betrouwbaarder, ook als de app gesloten is.
-- Wijzigingen aan gewoonten en herinneringen blijven betrouwbaarder behouden tijdens synchronisatie, import en opslagwissels.
+- Timerknoppen in widgets starten nu de juiste timer, Siri herkent uitgesproken namen van gewoonten betrouwbaarder wanneer de app gesloten is en compacte timers in het Dynamic Island worden correct weergegeven.
+- Wijzigingen aan gewoonten en herinneringen blijven betrouwbaarder behouden tijdens synchronisatie, import en opslagwissels. Op apparaten zonder Apple Intelligence opent het maken van een gewoonte nu direct in de handmatige modus.
 
 Bedankt dat je Planoma gebruikt!

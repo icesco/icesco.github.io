@@ -16,7 +16,7 @@
 
 ## Fixes
 
-- Timer buttons in widgets now start the right timer, and Siri recognizes spoken habit names more reliably, even when the app is closed.
-- Habit edits and reminders are preserved more reliably through syncs, imports, and storage changes.
+- Timer buttons in widgets now start the right timer, Siri recognizes spoken habit names more reliably even when the app is closed, and compact Dynamic Island timers render correctly.
+- Habit edits and reminders are preserved more reliably through syncs, imports, and storage changes. On devices without Apple Intelligence, habit creation now opens directly in manual mode.
 
 Thank you for using Planoma!

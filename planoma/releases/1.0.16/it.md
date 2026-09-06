@@ -16,7 +16,7 @@
 
 ## Correzioni
 
-- I pulsanti timer nei widget avviano finalmente il timer corretto e Siri riconosce meglio il nome pronunciato delle abitudini, anche quando l'app è chiusa.
-- Le modifiche alle abitudini e ai promemoria vengono conservate in modo più affidabile durante sincronizzazioni, importazioni e cambi di archivio.
+- I pulsanti timer nei widget avviano finalmente il timer corretto, Siri riconosce meglio il nome pronunciato delle abitudini anche quando l'app è chiusa e i timer compatti nella Dynamic Island vengono mostrati correttamente.
+- Le modifiche alle abitudini e ai promemoria vengono conservate in modo più affidabile durante sincronizzazioni, importazioni e cambi di archivio. Sui dispositivi senza Apple Intelligence, la creazione apre direttamente la modalità manuale.
 
 Grazie per usare Planoma!
