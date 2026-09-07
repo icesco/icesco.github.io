@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="post {% if page.page_class %}{{ page.page_class }}{% endif %}">
 
-  <header class="post-header">
+  <header class="post-header {% if page.hide_title %}visually-hidden{% endif %}">
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 

@@ -1,147 +1,39 @@
 ---
 layout: page
-title: Glico - Blood Glucose Tracker
-date: 2026-05-12
-permalink: glico
-width: 150
+title: Glico — Blood Glucose Tracker
+permalink: /glico/
+hide_title: true
+page_class: product-page
 custom_css: glico
 ---
 
-<div class="glico-hero">
-  <div class="glico-logo">
-    <img src="{{ site.baseurl }}/img/glico-icon.png" alt="Glico App Icon" width="{{page.width}}" class="center">
+<section class="product-hero">
+  <div>
+    <span class="product-badge">Glico · Glucose log</span>
+    <h1>Your numbers. <span class="soft">Clearly yours.</span></h1>
+    <p class="lead">A private blood glucose tracker that makes everyday logging fast and patterns easy to read — without putting an account between you and your data.</p>
+    <a class="button" href="#glico-details">Explore the app ↓</a>
   </div>
-  <div class="glico-tagline">Your Daily Glucose Companion</div>
-</div>
+  <div class="product-icon-wrap"><img class="product-icon-large" src="/img/glico-icon.png" alt="Glico app icon"></div>
+</section>
 
-<div class="glico-description">
-  <p class="glico-intro">Glico is a clean and private blood glucose tracker designed to make daily logging effortless. Log your readings, spot trends at a glance, and stay in control — all without cloud accounts or subscriptions required.</p>
-</div>
-
-<div class="glico-features">
-  <h3 class="glico-section-title">Key Features</h3>
+<section class="product-section" id="glico-details">
+  <div class="product-section-head"><h2>Less time logging.<br>More context.</h2><p>Glico keeps entry friction low, then organizes every reading into the views you need for your day, your trends and conversations with a professional.</p></div>
   <div class="feature-grid">
-    <div class="feature-card">
-      <div class="feature-icon">⚡</div>
-      <div class="feature-title">Quick Entry</div>
-      <div class="feature-desc">Log a reading in seconds — with context, notes, and meal timing</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">📊</div>
-      <div class="feature-title">Live Dashboard</div>
-      <div class="feature-desc">Today's average, last value, daily range, and on-target percentage</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">📓</div>
-      <div class="feature-title">Detailed Logbook</div>
-      <div class="feature-desc">Full history with analytics breakdown and filterable entries</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🎯</div>
-      <div class="feature-title">Custom Targets</div>
-      <div class="feature-desc">Set optimal values per measurement context — fasting, post-meal, and more</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🏠</div>
-      <div class="feature-title">Home Screen Widgets</div>
-      <div class="feature-desc">See your latest reading and daily stats without opening the app</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🔔</div>
-      <div class="feature-title">Smart Reminders</div>
-      <div class="feature-desc">Scheduled notifications per measurement context at custom times</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">☁️</div>
-      <div class="feature-title">iCloud Sync</div>
-      <div class="feature-desc">Optional sync across your devices via CloudKit — toggle it any time</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">❤️</div>
-      <div class="feature-title">Apple Health</div>
-      <div class="feature-desc">Read from and write to Apple Health automatically</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">📤</div>
-      <div class="feature-title">CSV Export</div>
-      <div class="feature-desc">Share your data with your doctor or import it into any spreadsheet</div>
-    </div>
+    <article class="feature-card"><span class="feature-number">01</span><h3>Quick entry</h3><p>Save a reading with meal context and notes in a few seconds.</p></article>
+    <article class="feature-card"><span class="feature-number">02</span><h3>Live dashboard</h3><p>See today’s average, range, latest value and time in target at a glance.</p></article>
+    <article class="feature-card"><span class="feature-number">03</span><h3>Detailed logbook</h3><p>Review and filter history when you need the full picture.</p></article>
+    <article class="feature-card"><span class="feature-number">04</span><h3>Apple Health</h3><p>Read existing samples and write new readings to HealthKit.</p></article>
+    <article class="feature-card"><span class="feature-number">05</span><h3>Widgets & reminders</h3><p>Keep recent numbers visible and measurement routines on time.</p></article>
+    <article class="feature-card"><span class="feature-number">06</span><h3>Portable data</h3><p>Export CSV files for your own analysis or to share with your doctor.</p></article>
   </div>
-</div>
+</section>
 
-<div class="glico-stats">
-  <h3 class="glico-section-title">At-a-Glance Insights</h3>
-  <p style="text-align:center; color: var(--glico-secondary-text); margin-bottom: 0.5rem;">The dashboard shows four key metrics updated in real time:</p>
-  <div class="stats-grid">
-    <div class="stat-card">
-      <div class="stat-icon">✨</div>
-      <div class="stat-label">Today's Average</div>
-      <div class="stat-value">mg/dL · mmol/L</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-icon">🕐</div>
-      <div class="stat-label">Last Value</div>
-      <div class="stat-value">with context</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-icon">↕️</div>
-      <div class="stat-label">Daily Range</div>
-      <div class="stat-value">min · max</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-icon">✅</div>
-      <div class="stat-label">On Target</div>
-      <div class="stat-value">% of readings</div>
-    </div>
+<section class="product-section">
+  <div class="product-highlight">
+    <div class="highlight-card"><h3>Private by default.</h3><p>Your log works locally with no required account. Optional iCloud sync keeps your devices aligned.</p></div>
+    <div class="highlight-card alt"><h3>Units that make sense to you.</h3><p>Use mg/dL or mmol/L and set targets for the measurement contexts you follow.</p></div>
   </div>
-</div>
-
-<div class="glico-integrations">
-  <h3 class="glico-section-title">Integrations</h3>
-  <ul class="integration-list">
-    <li><span class="highlight">Apple Health</span> — import existing readings and auto-write new ones</li>
-    <li><span class="highlight">iCloud / CloudKit</span> — optional multi-device sync with a single toggle</li>
-    <li><span class="highlight">WidgetKit</span> — lock screen and home screen widgets with live data</li>
-    <li><span class="highlight">CSV Export</span> — share readings with your doctor or import anywhere</li>
-  </ul>
-</div>
-
-<div class="glico-disclaimer">
-  <p class="disclaimer-text">⚠️ <strong>Medical disclaimer</strong> — Glico is a data logging tool only. It does not provide medical advice, diagnose conditions, or replace your doctor or healthcare professional. Always consult a qualified specialist for health decisions.</p>
-</div>
-
-<div class="glico-legal">
-  <p style="text-align:center; color: var(--glico-secondary-text); font-size: 0.85rem;">
-    <a href="{{ site.baseurl }}/glico/privacy/">Privacy Policy</a> &nbsp;·&nbsp;
-    <a href="{{ site.baseurl }}/glico/terms/">Terms of Service</a>
-  </p>
-</div>
-
-<div class="glico-tech">
-  <h3 class="glico-section-title">Built with Modern Technology</h3>
-  <div class="tech-stack">
-    <div class="tech-item"><span class="tech-name">SwiftUI</span><span class="tech-desc">Fluid, native interface</span></div>
-    <div class="tech-item"><span class="tech-name">SwiftData</span><span class="tech-desc">Fast and reliable local storage</span></div>
-    <div class="tech-item"><span class="tech-name">Swift Charts</span><span class="tech-desc">Beautiful, interactive data visualisation</span></div>
-    <div class="tech-item"><span class="tech-name">WidgetKit</span><span class="tech-desc">Home screen and lock screen widgets</span></div>
-    <div class="tech-item"><span class="tech-name">HealthKit</span><span class="tech-desc">Seamless Apple Health integration</span></div>
-    <div class="tech-item"><span class="tech-name">CloudKit</span><span class="tech-desc">Optional iCloud sync</span></div>
-  </div>
-</div>
-
-<div class="glico-launch">
-  <h3 class="glico-section-title">Coming Soon</h3>
-  <div class="launch-info">
-    <p>Glico will be available soon on the App Store.</p>
-    <div class="launch-specs">
-      <div class="spec-item">📱 iOS 17.0+</div>
-      <div class="spec-item">📊 mg/dL and mmol/L</div>
-      <div class="spec-item">🌍 English and Italian</div>
-      <div class="spec-item">🔒 Private by default</div>
-    </div>
-    <div class="glico-cta">
-      <p class="cta-text">Simple. Private. Always with you.</p>
-      <span class="coming-soon-badge">Coming Soon on the App Store</span>
-    </div>
-  </div>
-</div>
+  <div class="tech-row" aria-label="Technology"><span class="tech-pill">SwiftUI</span><span class="tech-pill">SwiftData</span><span class="tech-pill">Swift Charts</span><span class="tech-pill">HealthKit</span><span class="tech-pill">WidgetKit</span><span class="tech-pill">CloudKit</span></div>
+  <div class="product-cta"><h2>Focused tracking, without the noise.</h2><p>Glico is a logging tool and does not provide medical advice, diagnosis or treatment. Always consult a qualified healthcare professional.</p><span class="button">Coming soon</span><div class="product-legal"><a href="/glico/privacy/">Privacy</a><a href="/glico/terms/">Terms</a></div></div>
+</section>

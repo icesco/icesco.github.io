@@ -1,138 +1,39 @@
 ---
 layout: page
-title: Planoma - Habit Tracker
-date: 2025-08-23
-permalink: planoma
-width: 150
+title: Planoma — Habit Tracker
+permalink: /planoma/
+hide_title: true
+page_class: product-page
 custom_css: planoma
 ---
 
-<div class="planoma-hero">
-  <div class="planoma-logo">
-    <img src="{{ site.baseurl }}/img/planoma-icon.jpg" alt="Planoma App Icon" width="{{page.width}}" class="center">
+<section class="product-hero">
+  <div>
+    <span class="product-badge">Planoma · Habit tracker</span>
+    <h1>Better routines, built <span class="soft">your way.</span></h1>
+    <p class="lead">Planoma turns daily intentions into routines that feel natural. Track what matters, see your momentum and shape every habit around real life.</p>
+    <a class="button" href="https://apps.apple.com/it/app/planoma/id6748082202">Download on the App Store ↗</a>
   </div>
-  <div class="planoma-tagline">Transform Your Daily Routine</div>
-</div>
+  <div class="product-icon-wrap"><img class="product-icon-large" src="/img/planoma-icon.jpg" alt="Planoma app icon"></div>
+</section>
 
-<div class="planoma-description">
-  <p class="planoma-intro">Planoma is an elegant habit tracker designed to help you build lasting positive changes. With its beautiful SwiftUI interface and powerful analytics, Planoma makes habit tracking both simple and rewarding.</p>
-</div>
-
-<div class="planoma-features">
-  <h3 class="planoma-section-title">🎯 Key Features</h3>
+<section class="product-section">
+  <div class="product-section-head"><h2>Small actions.<br>Visible progress.</h2><p>A calm home for habits, activities and goals — designed to make checking in quick while keeping deeper insights close when you want them.</p></div>
   <div class="feature-grid">
-    <div class="feature-card">
-      <div class="feature-icon">🎯</div>
-      <div class="feature-title">Simple Daily Tracking</div>
-      <div class="feature-desc">Check off habits with a single tap</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">📊</div>
-      <div class="feature-title">Beautiful Analytics</div>
-      <div class="feature-desc">Visualize your progress with insightful charts</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🏠</div>
-      <div class="feature-title">Home Screen Widgets</div>
-      <div class="feature-desc">Quick access with iOS widgets</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">☁️</div>
-      <div class="feature-title">iCloud Sync</div>
-      <div class="feature-desc">Data stays in sync across devices</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🎨</div>
-      <div class="feature-title">Customizable Themes</div>
-      <div class="feature-desc">Multiple color schemes available</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">⚡</div>
-      <div class="feature-title">Native Performance</div>
-      <div class="feature-desc">Built with SwiftUI and SwiftData</div>
-    </div>
+    <article class="feature-card"><span class="feature-number">01</span><h3>Flexible tracking</h3><p>Build simple check-ins, timed activities and measurable goals around your schedule.</p></article>
+    <article class="feature-card"><span class="feature-number">02</span><h3>Meaningful analytics</h3><p>Read streaks, heatmaps and weekly trends without turning your life into a spreadsheet.</p></article>
+    <article class="feature-card"><span class="feature-number">03</span><h3>Always within reach</h3><p>Widgets, Live Activities and system shortcuts make progress possible without friction.</p></article>
+    <article class="feature-card"><span class="feature-number">04</span><h3>Make it yours</h3><p>Choose colors, icons and themes that give every routine its own identity.</p></article>
+    <article class="feature-card"><span class="feature-number">05</span><h3>Across your devices</h3><p>Your routines stay current with private iCloud sync on iPhone, iPad and Apple Watch.</p></article>
+    <article class="feature-card"><span class="feature-number">06</span><h3>Gentle reminders</h3><p>Plan schedules and reminders that support the day instead of interrupting it.</p></article>
   </div>
-</div>
+</section>
 
-<div class="planoma-analytics">
-  <h3 class="planoma-section-title">📈 Advanced Analytics</h3>
-  <div class="analytics-content">
-    <p>Planoma goes beyond simple checking - it provides deep insights into your habit patterns:</p>
-    <ul class="analytics-list">
-      <li><span class="highlight">Weekly and monthly</span> progress reports</li>
-      <li><span class="highlight">Streak tracking</span> and consistency scores</li>
-      <li><span class="highlight">Calendar heatmap</span> visualization</li>
-      <li><span class="highlight">Goal-based activity</span> monitoring</li>
-      <li><span class="highlight">Achievement badges</span> for milestones</li>
-    </ul>
+<section class="product-section">
+  <div class="product-highlight">
+    <div class="highlight-card"><h3>A clearer view of consistency.</h3><p>Weekly overviews, calendar heatmaps and progress reports reveal the patterns behind every habit.</p></div>
+    <div class="highlight-card alt"><h3>Your routine, at a glance.</h3><p>Home Screen, Lock Screen and interactive widgets keep today’s actions one tap away.</p></div>
   </div>
-</div>
-
-<div class="planoma-widgets">
-  <h3 class="planoma-section-title">📱 Widget Experience</h3>
-  <div class="widget-showcase">
-    <p>Stay connected to your habits throughout the day:</p>
-    <div class="widget-types">
-      <div class="widget-type">
-        <div class="widget-size small">S</div>
-        <div class="widget-name">Compact Calendar</div>
-      </div>
-      <div class="widget-type">
-        <div class="widget-size medium">M</div>
-        <div class="widget-name">Weekly Overview</div>
-      </div>
-      <div class="widget-type">
-        <div class="widget-size large">L</div>
-        <div class="widget-name">Statistics Dashboard</div>
-      </div>
-      <div class="widget-type">
-        <div class="widget-size lock">🔒</div>
-        <div class="widget-name">Lock Screen</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="planoma-premium">
-  <h3 class="planoma-section-title">⭐ Premium Features</h3>
-  <div class="premium-card">
-    <div class="premium-header">Planoma Pro</div>
-    <div class="premium-features">
-      <div class="premium-feature">✓ Unlimited habits and activities</div>
-      <div class="premium-feature">✓ Advanced analytics and detailed reports</div>
-      <div class="premium-feature">✓ Premium themes and customization</div>
-      <div class="premium-feature">✓ Data export options</div>
-      <div class="premium-feature">✓ Priority customer support</div>
-    </div>
-  </div>
-</div>
-
-<div class="planoma-tech">
-  <h3 class="planoma-section-title">🛠 Built with Modern Technology</h3>
-  <div class="tech-stack">
-    <div class="tech-item"><span class="tech-name">SwiftUI</span><span class="tech-desc">Native, responsive interfaces</span></div>
-    <div class="tech-item"><span class="tech-name">SwiftData</span><span class="tech-desc">Efficient local storage</span></div>
-    <div class="tech-item"><span class="tech-name">WidgetKit</span><span class="tech-desc">Seamless widget integration</span></div>
-    <div class="tech-item"><span class="tech-name">App Intents</span><span class="tech-desc">Siri shortcuts</span></div>
-    <div class="tech-item"><span class="tech-name">CloudKit</span><span class="tech-desc">Reliable iCloud sync</span></div>
-  </div>
-</div>
-
-<div class="planoma-launch">
-  <h3 class="planoma-section-title">🚀 Download Now</h3>
-  <div class="launch-info">
-    <p>Planoma is now available on the App Store!</p>
-    <div class="launch-specs">
-      <div class="spec-item">📱 iOS 18.0+ compatibility</div>
-      <div class="spec-item">💻 iPhone and iPad support</div>
-      <div class="spec-item">🌍 English and Italian localization</div>
-      <div class="spec-item">💰 Free version with premium options</div>
-    </div>
-    <div class="planoma-cta">
-      <p class="cta-text">Transform your routine, one habit at a time with Planoma.</p>
-      <a href="https://apps.apple.com/it/app/planoma/id6748082202" target="_blank" class="app-store-button">
-        <div class="status-badge">Download on the App Store</div>
-      </a>
-    </div>
-  </div>
-</div>
+  <div class="tech-row" aria-label="Technology"><span class="tech-pill">SwiftUI</span><span class="tech-pill">SwiftData</span><span class="tech-pill">WidgetKit</span><span class="tech-pill">ActivityKit</span><span class="tech-pill">App Intents</span><span class="tech-pill">CloudKit</span></div>
+  <div class="product-cta"><h2>Start with one thing you want to keep.</h2><p>Planoma is free to download, with optional Pro features for deeper customization and insights.</p><a class="button" href="https://apps.apple.com/it/app/planoma/id6748082202">View on the App Store ↗</a><div class="product-legal"><a href="/planoma/support/">Support</a><a href="/planoma/privacy/">Privacy</a><a href="/planoma/terms/">Terms</a></div></div>
+</section>

@@ -1,43 +1,26 @@
 ---
 layout: page
 title: ReSurfer for Reddit
-date: 2020-06-13
-permalink: resurfer
-width: 150
+permalink: /resurfer/
+hide_title: true
+page_class: product-page
 ---
 
- <img src="{{ site.baseurl }}/img/0x0ss-P3-5.jpg" alt="First Screen" width="{{page.width}}}" class="center"><img src="{{ site.baseurl }}/img/0x0ss-P3-4.jpg" alt="Second Screen" width="{{page.width}}}" class="center"><img src="{{ site.baseurl }}/img/0x0ss-P3.jpg" alt="Third Screen" width="{{page.width}}}" class="center">
+<section class="product-hero">
+  <div>
+    <span class="product-badge">From the archive · Reddit client</span>
+    <h1>Reddit, with <span class="soft">less in the way.</span></h1>
+    <p class="lead">ReSurfer explored a cleaner, more personal way to browse communities on iPhone and iPad — with native gestures, adaptable layouts and a focused reading experience.</p>
+  </div>
+  <div class="product-icon-wrap"><img class="product-icon-large" src="/img/0x0ss-P3-5.jpg" alt="ReSurfer on iPhone"></div>
+</section>
 
-### Less is More
+<section class="product-section">
+  <div class="product-section-head"><h2>Made for browsing your way.</h2><p>Compact or spacious posts, custom themes, alternate app icons and configurable gestures made the experience personal without making it complicated.</p></div>
+  <div class="screenshot-strip"><img src="/img/0x0ss-P3-4.jpg" alt="ReSurfer feed"><img src="/img/0x0ss-P3.jpg" alt="ReSurfer post detail"><img src="/img/0x0ss-P3-2.jpg" alt="ReSurfer themes"></div>
+</section>
 
-ReSurfer is a client for Reddit that has its minimal design as its strength. Every small component of the app has been designed to be essential and at the same time immediate. But don’t worry, despite the ReSurfer aspect it is able to best meet the needs of each Redditor. With ReSurfer you will be able to take advantage of the main features of Reddit, including:
-- **Scroll through your subscriptions**
-- **Follow new communities**
-- **Consult your personalized lists (multireddits)**
-- **Consult notifications and messages**
-- **Create posts with a fantastic Markdown editor**
-- **Reply and comment on the links**
-- **Rate and save your favorite content**
-As soon as you start the app you will find yourself immersed in the world of Reddit, on the Internet Front Page.
-
-
-
-### Keyword: Personalization
-
-ReSurfer has been designed to be completely customizable: from content and sorting preferences to the size of each post. In fact, you can choose between:
-- **Compact and large posts**;
-- **Autoplay of videos and gifs**;
-- **A varied collection of themes!** You will have the opportunity to truly make the app
-yours, thanks to a collection of 10 themes created to make the app unique;
-- **Custom app icons!** ReSurfer offers a large selection of icons
-customized to choose from, choose your favorite!
-
-### Gestures to simplify your life
-
-ReSurfer uses gestures to make any action in the app easier, vote, comment, share and much more. In addition to custom gestures ReSurfer takes advantage of the contextual menus offered by iOS 13. Do you use an iPad with a trackpad or mouse? No problem ! ReSurfer supports use with an external mouse (available from iOS 13.4).
-Average for everyone
-ReSurfer has been designed to provide an immersive experience, in fact it allows you to view videos, gifs, images, links without having to leave the app. It also makes it easy to share any content that is shown within the app, giving you the opportunity to share posts but also media instantly.
-
-### Try it today
-
-ReSurfer is available for iPhone and iPad with iOS 13 and it's free, [download](https://apps.apple.com/it/app/resurfer-for-reddit/id1489340046) it on the AppStore!
+<section class="product-section">
+  <div class="product-highlight"><div class="highlight-card"><h3>Gestures for the actions you repeat.</h3><p>Vote, reply, save and share without losing your place in the conversation.</p></div><div class="highlight-card alt"><h3>Media stays immersive.</h3><p>Open images, GIFs, video and links without constantly leaving the app.</p></div></div>
+  <div class="product-cta"><h2>An early chapter in my iOS work.</h2><p>ReSurfer is preserved here as part of the archive and the path that led to my current apps.</p><a class="button" href="/projects/">See current projects →</a></div>
+</section>
