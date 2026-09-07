@@ -3,6 +3,8 @@ layout: page
 title: "Monstera — Crediti immagini"
 permalink: /monstera/credits/
 exclude_from_nav: true
+lang: it
+alternate_url: /monstera/en/credits/
 ---
 
 Le schermate di Monstera mostrano immagini di riferimento provenienti da Wikimedia Commons. Le foto sono ridimensionate e ritagliate per la visualizzazione; gli adattamenti mantengono le rispettive licenze originali. Queste licenze riguardano le fotografie, non il codice dell’app.

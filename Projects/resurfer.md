@@ -4,6 +4,8 @@ title: ReSurfer for Reddit
 permalink: /resurfer/
 hide_title: true
 page_class: product-page
+lang: en
+alternate_url: /it/resurfer/
 ---
 
 <section class="product-hero">

@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Francesco Bianco — iOS Developer
+title: Francesco Bianco
 email: f.bianco.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Independent iOS developer crafting focused, native apps for everyday life.

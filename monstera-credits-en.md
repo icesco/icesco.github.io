@@ -3,6 +3,8 @@ layout: page
 title: "Monstera — Image credits"
 permalink: /monstera/en/credits/
 exclude_from_nav: true
+lang: en
+alternate_url: /monstera/credits/
 ---
 
 Monstera screenshots include reference photographs from Wikimedia Commons. The photos are resized and cropped to fit; these adaptations retain their respective original licenses. The licenses cover the photographs, not the app code.

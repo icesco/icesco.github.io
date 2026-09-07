@@ -3,6 +3,7 @@ layout: page
 title: Planoma - Terms of Service
 permalink: /planoma/terms/
 exclude_from_nav: true
+lang: en
 ---
 
 # Terms of Service for Planoma

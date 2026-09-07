@@ -5,6 +5,8 @@ nav_title: Apps
 permalink: /projects/
 hide_title: true
 page_class: portfolio-page
+lang: en
+alternate_url: /it/progetti/
 ---
 
 <section class="portfolio-hero">
@@ -16,7 +18,7 @@ page_class: portfolio-page
 <div class="project-grid portfolio-list">
   <a class="project-card planoma" href="/planoma/"><div class="project-card-top"><img class="project-icon" src="/img/planoma-icon.jpg" alt="Planoma app icon"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h2 class="project-name">Planoma</h2><p>Habit tracking designed around your rhythm, not your guilt.</p></div></a>
   <a class="project-card monstera" href="/monstera/"><div class="project-card-top"><img class="project-icon" src="/img/monstera-icon.png" alt="Monstera app icon"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h2 class="project-name">Monstera</h2><p>Plant care that adapts to your home, weather and collection.</p></div></a>
-  <a class="project-card blokko" href="/blokko/"><div class="project-card-top"><img class="project-icon" src="/blokko/icon.png" alt="Blokko app icon"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h2 class="project-name">Blokko</h2><p>A tactile block puzzle for iPhone and iPad.</p></div></a>
+  <a class="project-card blokko" href="/blokko/en/"><div class="project-card-top"><img class="project-icon" src="/blokko/icon.png" alt="Blokko app icon"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h2 class="project-name">Blokko</h2><p>A tactile block puzzle for iPhone and iPad.</p></div></a>
   <a class="project-card glico" href="/glico/"><div class="project-card-top"><img class="project-icon" src="/img/glico-icon.png" alt="Glico app icon"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h2 class="project-name">Glico</h2><p>A clean, private glucose log with HealthKit and useful trends.</p></div></a>
 </div>
 

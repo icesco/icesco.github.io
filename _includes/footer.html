@@ -5,8 +5,8 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <p class="footer-kicker">Independent iOS developer</p>
-        <p class="footer-signoff">Thoughtful apps,<br>made in Italy.</p>
+        <p class="footer-kicker">{% if page.lang == "it" %}Sviluppatore iOS indipendente{% else %}Independent iOS developer{% endif %}</p>
+        <p class="footer-signoff">{% if page.lang == "it" %}App curate,<br>fatte in Italia.{% else %}Thoughtful apps,<br>made in Italy.{% endif %}</p>
       </div>
 
       <div class="footer-col footer-col-2">
@@ -14,7 +14,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>© {{ "now" | date: "%Y" }} Francesco Bianco.<br>Designed and built with care.</p>
+        <p>© {{ "now" | date: "%Y" }} Francesco Bianco.<br>{% if page.lang == "it" %}Progettato e sviluppato con cura.{% else %}Designed and built with care.{% endif %}</p>
       </div>
     </div>
 

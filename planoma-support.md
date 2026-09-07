@@ -3,6 +3,7 @@ layout: page
 title: Planoma - Support
 permalink: /planoma/support/
 exclude_from_nav: true
+lang: en
 ---
 
 # Planoma Support

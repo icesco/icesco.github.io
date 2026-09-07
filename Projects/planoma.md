@@ -5,6 +5,8 @@ permalink: /planoma/
 hide_title: true
 page_class: product-page
 custom_css: planoma
+lang: en
+alternate_url: /it/planoma/
 ---
 
 <section class="product-hero">

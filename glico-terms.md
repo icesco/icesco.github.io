@@ -3,6 +3,7 @@ layout: page
 title: Glico - Terms of Service
 permalink: /glico/terms/
 exclude_from_nav: true
+lang: en
 ---
 
 # Terms of Service for Glico

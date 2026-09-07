@@ -3,6 +3,7 @@ layout: page
 title: Glico - Privacy Policy
 permalink: /glico/privacy/
 exclude_from_nav: true
+lang: en
 ---
 
 # Privacy Policy for Glico

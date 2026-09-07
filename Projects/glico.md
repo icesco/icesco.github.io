@@ -5,6 +5,8 @@ permalink: /glico/
 hide_title: true
 page_class: product-page
 custom_css: glico
+lang: en
+alternate_url: /it/glico/
 ---
 
 <section class="product-hero">

@@ -5,6 +5,8 @@ permalink: /monstera/
 hide_title: true
 page_class: product-page
 custom_css: monstera
+lang: en
+alternate_url: /it/monstera/
 ---
 
 <section class="product-hero">

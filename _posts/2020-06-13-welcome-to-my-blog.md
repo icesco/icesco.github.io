@@ -2,9 +2,12 @@
 layout: post
 title: "Welcome to iCesco's Blog"
 date: 2020-06-13
+lang: en
+alternate_url: /it/2020/06/13/benvenuti-nel-mio-blog.html
 ---
 
-## Welcome to iCesco's Blog!
+## Welcome!
 
-In this blog I'll collect some quick tips and tricks about mobile development, especially about iOS and swift in general.
-I hope that you all gonna enjoy my content!.
+This is where I collect notes, ideas and small explorations about mobile development, especially iOS and Swift.
+
+Thanks for reading.

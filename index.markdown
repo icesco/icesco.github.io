@@ -1,6 +1,8 @@
 ---
 layout: home
-title: Francesco Bianco — Independent iOS Developer
+title: Independent iOS Developer
+lang: en
+alternate_url: /it/
 ---
 
 <section class="home-hero">
@@ -27,7 +29,7 @@ title: Francesco Bianco — Independent iOS Developer
       <div class="project-card-top"><img class="project-icon" src="/img/monstera-icon.png" alt="Monstera app icon"><span class="project-arrow" aria-hidden="true">↗</span></div>
       <div class="project-card-copy"><h3 class="project-name">Monstera</h3><p>A considered companion for every plant in your home.</p></div>
     </a>
-    <a class="project-card blokko" href="/blokko/">
+    <a class="project-card blokko" href="/blokko/en/">
       <div class="project-card-top"><img class="project-icon" src="/blokko/icon.png" alt="Blokko app icon"><span class="project-arrow" aria-hidden="true">↗</span></div>
       <div class="project-card-copy"><h3 class="project-name">Blokko</h3><p>A block puzzle made for one quiet move at a time.</p></div>
     </a>
@@ -38,11 +40,12 @@ title: Francesco Bianco — Independent iOS Developer
   </div>
 </section>
 
-{% if site.posts.size > 0 %}
+{% assign english_posts = site.posts | where: "lang", "en" %}
+{% if english_posts.size > 0 %}
 <section class="home-notes" aria-labelledby="notes-title">
   <div class="section-heading"><h2 id="notes-title">Notes</h2><span class="post-meta">Swift, design and the work behind the apps.</span></div>
   <ul class="post-list">
-    {% for post in site.posts limit:3 %}
+    {% for post in english_posts limit:3 %}
       <li><span class="post-meta">{{ post.date | date: "%b %Y" }}</span><h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3></li>
     {% endfor %}
   </ul>

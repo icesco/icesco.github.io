@@ -3,6 +3,7 @@ layout: page
 title: Planoma - Privacy Policy
 permalink: /planoma/privacy/
 exclude_from_nav: true
+lang: en
 ---
 
 # Privacy Policy for Planoma

@@ -3,6 +3,8 @@ layout: page
 title: "Monstera — Support"
 permalink: /monstera/en/support/
 exclude_from_nav: true
+lang: en
+alternate_url: /monstera/support/
 ---
 
 [Italiano](/monstera/support/) · [Privacy](/monstera/en/privacy/)

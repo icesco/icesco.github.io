@@ -4,6 +4,8 @@ title: About
 nav_title: About
 permalink: /about/
 hide_title: true
+lang: en
+alternate_url: /it/chi-sono/
 ---
 
 <section class="about-hero">
