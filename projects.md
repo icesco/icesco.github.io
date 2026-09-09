@@ -20,6 +20,7 @@ alternate_url: /it/progetti/
   <a class="project-card monstera" href="/monstera/"><div class="project-card-top"><img class="project-icon" src="/img/monstera-icon.png" alt="Monstera app icon"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h2 class="project-name">Monstera</h2><p>Plant care that adapts to your home, weather and collection.</p></div></a>
   <a class="project-card blokko" href="/blokko/en/"><div class="project-card-top"><img class="project-icon" src="/blokko/icon.png" alt="Blokko app icon"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h2 class="project-name">Blokko</h2><p>A tactile block puzzle for iPhone and iPad.</p></div></a>
   <a class="project-card glico" href="/glico/"><div class="project-card-top"><img class="project-icon" src="/img/glico-icon.png" alt="Glico app icon"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h2 class="project-name">Glico</h2><p>A clean, private glucose log with HealthKit and useful trends.</p></div></a>
+  <a class="project-card movietracker" href="/movietracker/"><div class="project-card-top"><img class="project-icon" src="/img/movietracker-icon.svg" alt="MovieTracker placeholder app icon"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h2 class="project-name">MovieTracker</h2><p>A private, cinematic journal for films, series and every episode along the way.</p></div></a>
 </div>
 
 <section class="product-section">

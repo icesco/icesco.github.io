@@ -37,6 +37,10 @@ alternate_url: /it/
       <div class="project-card-top"><img class="project-icon" src="/img/glico-icon.png" alt="Glico app icon"><span class="project-arrow" aria-hidden="true">↗</span></div>
       <div class="project-card-copy"><h3 class="project-name">Glico</h3><p>Private, focused blood glucose tracking with the insights that matter.</p></div>
     </a>
+    <a class="project-card movietracker" href="/movietracker/">
+      <div class="project-card-top"><img class="project-icon" src="/img/movietracker-icon.svg" alt="MovieTracker placeholder app icon"><span class="project-arrow" aria-hidden="true">↗</span></div>
+      <div class="project-card-copy"><h3 class="project-name">MovieTracker</h3><p>A private, cinematic journal for films, series and every episode along the way.</p></div>
+    </a>
   </div>
 </section>
 

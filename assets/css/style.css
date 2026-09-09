@@ -60,6 +60,7 @@ img { max-width: 100%; }
 .project-card.monstera:hover { color: #153922; }
 .project-card.blokko { background: radial-gradient(circle at 85% 10%, #ffdca3, transparent 30%), linear-gradient(145deg, #5b3c68, #9b70aa); }
 .project-card.glico { background: radial-gradient(circle at 85% 8%, #fda3aa, transparent 29%), linear-gradient(145deg, #234b8f, #5689db); }
+.project-card.movietracker { grid-column: span 12; background: radial-gradient(circle at 82% 12%, rgba(67,200,255,.45), transparent 28%), radial-gradient(circle at 18% 90%, rgba(114,101,255,.34), transparent 30%), linear-gradient(145deg, #122438, #05080d); }
 .project-card-top { display: flex; justify-content: space-between; align-items: start; gap: 20px; }
 .project-icon { width: 88px; height: 88px; object-fit: cover; border-radius: 22px; box-shadow: 0 16px 30px rgba(0,0,0,.16); }
 .project-arrow { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid rgba(255,255,255,.38); border-radius: 50%; font-size: 1.3rem; }

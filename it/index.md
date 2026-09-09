@@ -20,6 +20,7 @@ alternate_url: /
     <a class="project-card monstera" href="/it/monstera/"><div class="project-card-top"><img class="project-icon" src="/img/monstera-icon.png" alt="Icona di Monstera"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h3 class="project-name">Monstera</h3><p>Un compagno attento per ogni pianta della tua casa.</p></div></a>
     <a class="project-card blokko" href="/blokko/"><div class="project-card-top"><img class="project-icon" src="/blokko/icon.png" alt="Icona di Blokko"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h3 class="project-name">Blokko</h3><p>Un puzzle a blocchi da giocare con calma, una mossa alla volta.</p></div></a>
     <a class="project-card glico" href="/it/glico/"><div class="project-card-top"><img class="project-icon" src="/img/glico-icon.png" alt="Icona di Glico"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h3 class="project-name">Glico</h3><p>Un diario glicemico privato e diretto, con le informazioni che contano.</p></div></a>
+    <a class="project-card movietracker" href="/it/movietracker/"><div class="project-card-top"><img class="project-icon" src="/img/movietracker-icon.svg" alt="Icona provvisoria di MovieTracker"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h3 class="project-name">MovieTracker</h3><p>Un diario privato e cinematografico per film, serie e ogni episodio lungo il percorso.</p></div></a>
   </div>
 </section>
 
