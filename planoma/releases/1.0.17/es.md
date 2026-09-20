@@ -2,6 +2,7 @@
 
 ## Nuevas experiencias
 
+- Planoma ahora es compatible con iOS 27, con una experiencia actualizada y aún mejor integrada en el sistema.
 - Descubre el nuevo widget Planoma Hoy para consultar tu día y registrar hábitos rápidamente desde la pantalla de inicio.
 - Disfruta de una experiencia completamente nueva en el Apple Watch, con controles más directos, temporizadores, la opción de deshacer y nuevos widgets para el Grupo Inteligente.
 - Personaliza tus hábitos con 84 nuevos iconos ilustrados, incluidas muchas versiones de Ettore.
@@ -14,6 +15,6 @@
 
 ## Correcciones
 
-- Planoma es más fiable en iOS 27, con correcciones para los widgets, la sincronización con el Apple Watch y el contenido que podía desaparecer al desplazarte.
+- Planoma es más fiable, con correcciones para los widgets, la sincronización con el Apple Watch y el contenido que podía desaparecer al desplazarte.
 
 ¡Gracias por usar Planoma!

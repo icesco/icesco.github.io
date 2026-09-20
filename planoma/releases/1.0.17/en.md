@@ -2,6 +2,7 @@
 
 ## New Experiences
 
+- Planoma now supports iOS 27, with an updated experience that feels even more at home on the system.
 - Discover the new Planoma Today widget to see your day and quickly check in habits from the Home Screen.
 - Enjoy an all-new Apple Watch experience with more immediate controls, timers, undo, and new Smart Stack widgets.
 - Personalize your habits with 84 new illustrated icons, including many featuring Ettore.
@@ -14,6 +15,6 @@
 
 ## Fixes
 
-- Planoma is more reliable on iOS 27, with fixes for widgets, Apple Watch syncing, and content that could disappear while scrolling.
+- Planoma is more reliable, with fixes for widgets, Apple Watch syncing, and content that could disappear while scrolling.
 
 Thank you for using Planoma!

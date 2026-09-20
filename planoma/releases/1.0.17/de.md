@@ -2,6 +2,7 @@
 
 ## Neue Erlebnisse
 
+- Planoma unterstützt jetzt iOS 27 – mit einem aktualisierten Erlebnis, das sich noch besser in das System einfügt.
 - Entdecke das neue Widget „Planoma Heute“, um deinen Tag im Blick zu behalten und Gewohnheiten direkt auf dem Home-Bildschirm schnell abzuhaken.
 - Erlebe Planoma auf der Apple Watch völlig neu – mit direkteren Bedienelementen, Timern, Rückgängig-Funktion und neuen Widgets für den Smart Stapel.
 - Personalisiere deine Gewohnheiten mit 84 neuen illustrierten Symbolen, darunter viele Varianten mit Ettore.
@@ -14,6 +15,6 @@
 
 ## Korrekturen
 
-- Planoma ist unter iOS 27 zuverlässiger, mit Korrekturen für Widgets, die Apple-Watch-Synchronisierung und Inhalte, die beim Scrollen verschwinden konnten.
+- Planoma ist zuverlässiger, mit Korrekturen für Widgets, die Apple-Watch-Synchronisierung und Inhalte, die beim Scrollen verschwinden konnten.
 
 Danke, dass du Planoma verwendest!
