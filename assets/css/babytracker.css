@@ -1,0 +1,15 @@
+@import url("/assets/css/monstera.css");
+.product-page .product-badge { background: #edf1e8; color: #315342; }
+.product-page .product-hero h1 .soft { color: #52745c; }
+.babytracker-privacy { display: flex; align-items: center; gap: 2rem; padding: 2rem; border-radius: 24px; background: #fcfaf2; }
+.babytracker-privacy img { flex-shrink: 0; object-fit: contain; }
+@media (max-width: 600px) { .babytracker-privacy { flex-direction: column; align-items: flex-start; gap: 1rem; padding: 1.5rem; } }
+.babytracker-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1rem, 3vw, 3rem); margin: 2rem 0 3rem; }
+.babytracker-gallery figure { margin: 0; min-width: 0; }
+.babytracker-gallery a { display: block; border-radius: 20px; }
+.babytracker-gallery a:focus-visible { outline: 3px solid #315342; outline-offset: 6px; }
+.babytracker-gallery img { display: block; width: 100%; height: auto; border-radius: 20px; border: 1px solid #deded8; }
+.babytracker-gallery figcaption { margin-top: 1rem; color: #333b35; font-size: 1rem; line-height: 1.5; }
+.babytracker-gallery figcaption strong, .babytracker-gallery figcaption span { display: block; }
+.babytracker-gallery figcaption span { margin-top: .3rem; }
+@media (max-width: 600px) { .babytracker-gallery { grid-template-columns: 1fr; gap: 2.5rem; } .babytracker-gallery figure { width: min(100%, 290px); margin-inline: auto; } }

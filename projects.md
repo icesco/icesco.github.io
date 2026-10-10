@@ -16,6 +16,7 @@ alternate_url: /it/progetti/
 </section>
 
 <div class="project-grid portfolio-list">
+  <a class="project-card babytracker" href="/pannoli/"><div class="project-card-top"><img class="project-icon" src="/img/baby-tracker-icon.png" alt="Pannoli"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h2 class="project-name">Pannoli</h2><p>A calm family journal for feeds, diapers and little moments.</p></div></a>
   <a class="project-card planoma" href="/planoma/"><div class="project-card-top"><img class="project-icon" src="/img/planoma-icon.jpg" alt="Planoma app icon"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h2 class="project-name">Planoma</h2><p>Habit tracking designed around your rhythm, not your guilt.</p></div></a>
   <a class="project-card monstera" href="/monstera/"><div class="project-card-top"><img class="project-icon" src="/img/monstera-icon.png" alt="Monstera app icon"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h2 class="project-name">Monstera</h2><p>Plant care that adapts to your home, weather and collection.</p></div></a>
   <a class="project-card blokko" href="/blokko/en/"><div class="project-card-top"><img class="project-icon" src="/blokko/icon.png" alt="Blokko app icon"><span class="project-arrow" aria-hidden="true">↗</span></div><div class="project-card-copy"><h2 class="project-name">Blokko</h2><p>A tactile block puzzle for iPhone and iPad.</p></div></a>
