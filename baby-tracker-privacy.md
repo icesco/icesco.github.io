@@ -4,11 +4,12 @@ title: "Pannoli: Dati e privacy"
 permalink: /pannoli/privacy/
 exclude_from_nav: true
 lang: it
+alternate_url: /pannoli/en/privacy/
 ---
 
 [Pannoli](/it/pannoli/) · [Assistenza](/pannoli/support/)
 
-*Ultimo aggiornamento: 10 ottobre 2026*
+*Ultimo aggiornamento: 27 ottobre 2026*
 
 Pannoli è un diario per adulti che si prendono cura di un bambino. Questa informativa descrive quali dati vengono trattati dall’app, dove vengono conservati e quali scelte hai a disposizione. Il riepilogo è disponibile anche nell’app, in **Impostazioni → Dati e privacy** e prima della creazione del primo diario.
 
@@ -19,7 +20,8 @@ Pannoli è sviluppata da **Francesco Bianco**. Per assistenza, chiarimenti sulla
 ## Quali informazioni salva l’app
 
 - **Profilo del bambino:** nome, data di nascita e scelta del sesso, usati per identificare il diario, personalizzare il saluto e presentare il contesto temporale. Puoi usare un soprannome e scegliere di non indicare il sesso.
-- **Eventi:** data e ora, tipo di evento, quantità di latte, durata e lato della poppata, tipo o conservazione del latte, cambi di pannolino, colore delle feci se inserito, peso e note facoltative.
+- **Eventi:** data e ora, tipo di evento, quantità di latte, durata e lato della poppata, tipo o conservazione del latte, cambi di pannolino, colore delle feci se inserito, peso, medicine e vitamine somministrate, quantità annotate e note facoltative.
+- **Medicine e promemoria:** nomi e quantità inseriti, cadenze, orari e date di inizio o fine. Questi dati restano associati al diario e seguono la sua eventuale condivisione iCloud. Le notifiche sono locali: il consenso e le richieste programmate restano su ciascun dispositivo.
 - **Preferenze:** diario selezionato, filtri, tipi di evento visibili e suggerimenti già chiusi.
 - **Condivisione:** identificativi tecnici del diario e dei record iCloud, ruolo e permessi dei partecipanti, autore e momento dell’ultimo aggiornamento. I nomi dei partecipanti disponibili tramite iCloud vengono mostrati per riconoscere le persone invitate e chi ha aggiornato un evento.
 
@@ -42,6 +44,12 @@ I widget leggono una copia locale dei riepiloghi tramite lo spazio condiviso del
 L’esportazione PDF include gli eventi e le note delle date selezionate e viene generata sul dispositivo. Il file viene preparato nell’area temporanea dell’app per aprire il foglio di condivisione del sistema. Scegli tu a quale app, persona o cartella inviarlo. Il file e le copie salvate o ricevute sono poi gestiti dai relativi destinatari e servizi; eliminarli dal diario non li elimina altrove.
 
 Le guide possono aprire fonti informative esterne. Informativa e assistenza sono pubblicate su questo sito, ospitato da **GitHub Pages**. Aprire un collegamento visita il sito relativo: il browser e il provider possono trattare dati tecnici, come indirizzo IP e informazioni della richiesta, secondo le proprie politiche. Il diario non viene allegato a questi collegamenti. Vedi anche la [privacy di GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+## Acquisto Plus
+
+Pannoli Plus è un acquisto unico facoltativo, gestito da Apple tramite StoreKit. L’app verifica le transazioni e il diritto di accesso per attivare le funzioni Plus e ripristinare un acquisto. Lo sviluppatore non riceve i dati della carta o le credenziali di pagamento. La condivisione del diario non richiede Plus.
+
+I grafici del peso vengono calcolati sul dispositivo e mostrano le misurazioni registrate nel diario. Non includono curve di riferimento o previsioni e non formulano valutazioni sulla crescita.
 
 ## Pubblicità, analisi e diagnostica
 
@@ -71,4 +79,4 @@ Puoi correggere i dati nell’app, esportare i periodi che desideri, gestire gli
 
 Puoi rivolgerti al [Garante per la protezione dei dati personali](https://www.garanteprivacy.it/) o all’autorità competente del tuo paese. L’app è destinata ai genitori e agli adulti responsabili della cura del bambino, non all’uso autonomo da parte dei bambini.
 
-Questa informativa viene aggiornata se cambiano le funzioni o il trattamento dei dati. Le informazioni qui descritte accompagnano l’aggiornamento che introduce **Dati e privacy**: in versioni precedenti alcuni comandi di gestione possono non essere ancora disponibili.
+Questa informativa viene aggiornata se cambiano le funzioni o il trattamento dei dati. Le funzioni descritte si riferiscono alla versione 1.0 di Pannoli; nelle versioni beta precedenti alcuni comandi possono non essere disponibili.
