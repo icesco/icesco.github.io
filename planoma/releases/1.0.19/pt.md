@@ -7,3 +7,6 @@
 - Partilha o teu progresso com um ecrã de exportação redesenhado.
 - Orientações mais claras sobre as permissões de Saúde ajudam-te a restaurar a sincronização enquanto continuas a registar dados no Planoma.
 - A edição acompanha a cor do hábito quando a alteras, e o Apple Watch mostra o progresso de Saúde com as unidades adequadas.
+- As metas semanais e personalizadas mostram os dias cobertos de forma coerente com o calendário, incluindo medições antigas de Saúde já guardadas.
+- Mantém premido o botão de água ou cafeína para escolher quantidade, data e hora num painel com a cor do hábito, que se abre a partir do botão e usa a unidade do hábito.
+- O início e as atividades mostram frases variadas em vez da data, com estados vazios mais claros e controlos de navegação visíveis durante o deslocamento.
